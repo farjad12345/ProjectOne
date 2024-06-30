@@ -3,8 +3,15 @@ import "./Header.css";
 import { Element, Link, animateScroll as Scroll } from "react-scroll";
 import { useState } from "react";
 function Header() {
-  const [isShowModal ,setIsShowModal]=useState(true)
+  const [togleMeneshow,settogleMeneshow]=useState(fa)
+  const [toglegMeneHide,settoglegMeneHide]=useState(false)
+  const handeleToggleIconMene=()=>{
+    console.log(settogleMeneshow);
 
+settogleMeneshow((prevState) => !prevState);
+// settoglegMeneHide((prev)=> !prev);
+console.log(settogleMeneshow);
+  }
   return (
     <Element name="home">
       <header className="header">
@@ -54,13 +61,13 @@ function Header() {
               شروع
             </a>
             <div className="Hamburger-menu" >
-              <div className="parent-hamburger-icon"  onClick={()=>setIsShowModal(prevstate => !prevstate)}>
-                <i class="fas fa-bars" style={isShowModal? { display:'block'}:{ display:'none'}}></i>
+              <div className="parent-hamburger-icon"  onClick={()=>togleMeneshow(prevstate => !prevstate)}>
+                <i class="fas fa-bars" style={togleMeneshow? { display:'block'}:{ display:'none'}}></i>
               </div>
-              <div className="parent-humberger-icon-close"  onClick={()=>setIsShowModal(prevstate => !prevstate)}>
-                <i class="fas fa-times" style={isShowModal?{ display:'none'}:  { display:'block'}}></i>
-              </div>
-              <ul className="ul-hamburger"  style={isShowModal?{ display:'none'}:  { display:'block'}}>
+              <div className="parent-humberger-icon-close"  onClick={handeleToggleIconMene}>
+                <i class="fas fa-times"></i>
+              </div>{" "}
+              <ul className="ul-hamburger">
                 <li>
                   <Link to="home" smooth={true} duration={500}>
                     خانه
@@ -90,7 +97,7 @@ function Header() {
                 <li>
                   <Link to="contact-us" smooth={true} duration={500}>
                     تماس با ما
-                  </Link>{" "}
+                  </Link>
                 </li>
               </ul>
             </div>
