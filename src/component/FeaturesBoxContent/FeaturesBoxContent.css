@@ -1,0 +1,18 @@
+
+.box-patent{
+    display: flex;
+    margin: 20px 0;
+}
+.features-box-icon{
+    font-size: 38px;
+    color: #ffc451;
+    padding:0 15px;
+
+}
+.features-box-content-top{
+    font-size: 20px;
+    color: #222;
+}
+.features-box-content-bottom{
+    margin-top: 8px;
+}

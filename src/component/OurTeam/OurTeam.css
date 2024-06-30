@@ -1,0 +1,39 @@
+.OurTeam{
+    width: 100%;
+    padding: 50px;
+}
+.OurTeam-top{
+    margin-bottom: 50px;
+}
+.OurTeam .OurTeam-content{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+}
+.OurTeam  .OurTeam-content::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #ffde9e;
+    margin: 4px 10px;
+    
+}
+.OurTeam h2{
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #151515;
+    text-align: justify;
+}
+.OurTeam-Box-parent{
+width: 100%;
+display: flex;
+justify-content: space-between;
+}

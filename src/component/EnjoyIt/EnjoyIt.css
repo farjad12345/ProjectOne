@@ -1,0 +1,35 @@
+
+.enjoy-it{
+    display: flex;
+}
+.enjoy-it-right{
+    width: 40%;
+    padding: 30px 0px;
+}
+
+.enjoy-it-right img{
+    width:100% ;
+}
+.enjoy-it-left{
+    padding: 40px 60px;
+    width: 60%;
+    
+}
+.enjoy-it-left h2{
+    font-weight: 700;
+    font-size: 26px;
+    color: #151515;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+}
+.enjoy-it-left .text-content{
+    text-align: justify;
+}
+.enjoyitBoxsParent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}

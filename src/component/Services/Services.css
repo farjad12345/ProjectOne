@@ -1,0 +1,32 @@
+.Services-Box-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.services{
+    width: 100%;
+    padding: 50px;
+}
+.services .services-content{
+    font-style: 14px;
+    columns: aaaaaa;
+    line-height:1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+}
+.services > .services-content::after{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #ffde9e;
+    margin: 4px 10px;
+    
+}
+.services h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #151515;
+    text-align: justify;
+}

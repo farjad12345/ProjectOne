@@ -1,0 +1,29 @@
+
+.enjoyit-box-parent{
+    width: 40%;
+}
+.enjoyit-each-box{
+    /* width:40%; */
+    margin: 20px  0;
+}
+.parent-icon{
+    display: flex;
+}
+.parent-icon .icon{
+    font-size: 38px;
+    margin-left:10px ;
+    color: #ffc451;
+}
+.parent-icon .icon-number{
+    font-size: 38px;
+}
+.content{
+     font-size: 14px;
+     color: #3b3b3b;
+    padding: 10px 0;
+    margin-right:  50px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+

@@ -1,0 +1,19 @@
+
+.portfolio-image-parent{
+    display: flex;
+
+
+}
+.row-images{
+    width: 32%;
+    margin: 0 15px;
+    overflow: hidden;
+}
+.row-images img{
+    margin: 15px 0;
+    width: 100%;
+    transition: all .5s ;
+}
+.row-images img:hover{
+transform: scale(1.05);
+}

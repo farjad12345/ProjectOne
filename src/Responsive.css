@@ -1,0 +1,82 @@
+.carosel{
+    background: linear-gradient(rgb(0,0,0.2),rgb(0,0,0,.2) ),url(../public/images/testimonials-bg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    padding: 100px 0;
+
+}
+.enjoyitBoxsParent{
+    height: auto !important;
+}
+.OurTeam-each-person-parent{
+    width: 22%;
+}
+@media (max-width: 1200px) {
+.container{
+    padding: 0 70px;
+} 
+.CTAsection {
+    height: auto !important;
+}   
+}
+
+@media (max-width: 768px) {
+
+.hero-bottom{
+    flex-wrap: wrap;
+    justify-content: center !important;
+    margin: 0 30px;
+}
+.hero-bottom-box{
+    margin:5px  10px;
+  
+}
+.about-us , .enjoy-it , .features , .services-box{
+    flex-direction: column !important;
+}
+.Services-Box-parent{
+    justify-content: center;
+}
+.enjoy-it-left , .enjoy-it-right , .services-box ,.about-us-half ,.features-half{
+    width: 100% !important;
+}
+.OurTeam-Box-parent{
+    flex-wrap: wrap;
+}
+.OurTeam-each-person-parent{
+    width: 49% !important;
+}
+.form-and-address-parent {
+    display: block;
+}
+}
+@media (max-width: 430px) {
+    .hero{
+        height: 3200px;
+    }
+.hero-content h1{
+    font-size: 33px;
+}
+.hero-content p ,.services h2 ,.OurTeam h2, .contact-us h2 , .portfolio h2  ,
+.enjoy-it-left h2  {
+    font-size: 28px !important;
+    line-height: 1.5 !important;
+}
+.enjoyit-box-parent{
+    width: 100% !important;
+
+}
+.OurTeam-each-person-parent{
+    width: 100% !important;
+}
+    .form-and-address-parent {
+        display: block;
+    }
+    .footer-top {
+    flex-direction: column;
+    }
+    .enjoy-it-left {
+            padding: 40px 5px !important;
+            text-align:justify;
+    }
+}
