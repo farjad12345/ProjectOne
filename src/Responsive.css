@@ -49,6 +49,10 @@
 .form-and-address-parent {
     display: block;
 }
+
+.img_list{
+    grid-template-columns: repeat(2,auto) !important;
+}
 }
 @media (max-width: 430px) {
     .container {
@@ -104,5 +108,8 @@
     }
     .hero-bottom-box{
         width: 90% !important;
+    }
+    .img_list{
+        grid-template-columns: repeat(1,auto) !important;
     }
 }
