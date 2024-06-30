@@ -41,13 +41,13 @@ function Header() {
               <li>
                 <Link to="team" smooth={true} duration={500}>
                   تیم ما
-                </Link>{" "}
+                </Link>
               </li>
 
               <li>
                 <Link to="contact-us" smooth={true} duration={500}>
                   تماس با ما
-                </Link>{" "}
+                </Link>
               </li>
             </ul>
             <a className="start" href="">

@@ -15,6 +15,8 @@ function Footer() {
         <p className="text">تلفن: 01234567895</p>
         <p className="text">ایمیل: info@example.com</p>
       </div>
+      <div className='center-row'>
+
       <div className="column-two">
         <h4>لینک های مفید</h4>
         <ul className="colum-two-links">
@@ -67,6 +69,8 @@ function Footer() {
           </li>
         </ul>
       </div>
+      </div>
+
       <div className="column-four">
         <h4>خبرنامه ما</h4>
         <p>

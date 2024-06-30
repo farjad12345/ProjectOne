@@ -86,11 +86,7 @@ ul li i{
     position: relative;
     border-radius: 4px;
 }
-form input[type="email"] {
-    border: 0;
-    padding: 4px;
-    width: calc(100% - 110px);
-}
+
 form input[type="submit"] {
     position: absolute;
     top: 0;
@@ -115,4 +111,8 @@ form input[type="submit"] {
 }
 .my-name{
     color: #ffc451;
+}
+.center-row{
+    display: flex;
+    flex-wrap: wrap;
 }

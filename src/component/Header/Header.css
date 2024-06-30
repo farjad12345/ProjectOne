@@ -31,6 +31,9 @@
   display: inline-flex;
   transition: all .5s;
 }
+nav{
+    flex-wrap: wrap;
+}
 .ul a:hover{
     color: #ffc451;
 
@@ -44,6 +47,7 @@
 .logo-text{
     text-transform:uppercase ;
 font-size: 2rem;
+width: 100%;
 }
 .start{
     padding: 8px 25px 8px 25px;
@@ -56,22 +60,20 @@ font-size: 2rem;
 }
 .Hamburger-menu{
     display: none;
+    margin-top: 32px;
 }
 .Hamburger-menu .ul-hamburger li{
-    justify-content: flex-end;
+   justify-content: center;
     margin-bottom: 10px;
-    margin-top: 10px;
+    line-height: 2rem;
 }
 .parent-hamburger-icon , .parent-humberger-icon-close{
     width: 32px;
-    height: 32px;
+    height:32px;
     color: white;
     text-align: left;
     width: 100%;
     position: absolute;
     left: 50px;
-    top: 10px;
+    top: 40px;
 }
-/* .parent-hamburger-icon {
-    display: none;
-} */

@@ -25,7 +25,6 @@ color: #ffc451;}
 }
 .hero-bottom{
     width: 1000px;
-       height: 150px;
     display: flex;
     justify-content: space-between;
 }

@@ -90,5 +90,19 @@
     }
     .Hamburger-menu{
         display: block !important;
+        width: 100%;
+    }
+    .form-and-address-parent {
+        flex-wrap: wrap ;
+    }
+    .fname ,.email {
+        width: 100% !important;
+      }
+      .column-two{
+        width: 48%;
+        justify-content: space-between !important;
+    }
+    .hero-bottom-box{
+        width: 90% !important;
     }
 }
