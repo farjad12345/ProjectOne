@@ -9,7 +9,7 @@ function Header() {
     <header className="header">
         <Element name="home">
         {/* <div className="container"> */}
-          <nav className="nav">
+          <nav className="nav container">
             <div className="heder-icon">
               <a className="logo-text" href="#">
                 Kasuka
