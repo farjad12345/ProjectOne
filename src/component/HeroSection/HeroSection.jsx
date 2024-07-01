@@ -10,7 +10,7 @@ function HeroSection() {
       </h1>
       <p>ما تیمی از بازاریابان با استعداد دیجیتال هستیم</p>
     </section>
-{/*     <div className="hero-bottom">
+     <div className="hero-bottom">
       <div className="hero-bottom-box">
         <i className="fas fa-yin-yang"></i>
         <p>متن نمایشی</p>
@@ -31,7 +31,7 @@ function HeroSection() {
         <i className="fas fa-yin-yang"></i>
         <p>متن نمایشی</p>
       </div>
-    </div> */}
+    </div> 
   </div>  )
 }
 
