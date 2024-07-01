@@ -6,9 +6,8 @@ function Header() {
   const [isShowModal ,setIsShowModal]=useState(true)
 
   return (
+           <Element name="home">
     <header className="header">
-        <Element name="home">
-        {/* <div className="container"> */}
           <nav className="nav container">
             <div className="heder-icon">
               <a className="logo-text" href="#">
@@ -79,25 +78,24 @@ function Header() {
                 <li>
                   <Link to="portfolio" smooth={true} duration={500}>
                     نمونه کارها
-                  </Link>{" "}
+                  </Link>
                 </li>
                 <li>
                   <Link to="team" smooth={true} duration={500}>
                     تیم ما
-                  </Link>{" "}
+                  </Link>
                 </li>
 
                 <li>
                   <Link to="contact-us" smooth={true} duration={500}>
                     تماس با ما
-                  </Link>{" "}
+                  </Link>
                 </li>
               </ul>
             </div>
           </nav>
-        {/* </div> */}
-    </Element>
       </header>
+    </Element>
   );
 }
 
