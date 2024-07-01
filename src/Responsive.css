@@ -147,7 +147,7 @@
 }
     .hero{
 height: auto;
-            flex-wrap: nowrap;
+/*             flex-wrap: nowrap; */
 
 }
     .hero-bottom-box{
