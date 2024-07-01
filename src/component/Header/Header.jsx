@@ -6,9 +6,9 @@ function Header() {
   const [isShowModal ,setIsShowModal]=useState(true)
 
   return (
-    <Element name="home">
-      <header className="header">
-        <div className="container">
+    <header className="header">
+        <Element name="home">
+        {/* <div className="container"> */}
           <nav className="nav">
             <div className="heder-icon">
               <a className="logo-text" href="#">
@@ -95,9 +95,9 @@ function Header() {
               </ul>
             </div>
           </nav>
-        </div>
-      </header>
+        {/* </div> */}
     </Element>
+      </header>
   );
 }
 
