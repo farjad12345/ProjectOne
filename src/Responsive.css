@@ -153,8 +153,9 @@ height: auto;
     .hero-bottom-box{
  padding: 0px !important;
  margin: 0px !important;
-            width: 10px !important;
-
+display: flex  !important;
+flex-direction: column  !important;
+}
     }
 
 }
