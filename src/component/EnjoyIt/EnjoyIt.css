@@ -1,9 +1,11 @@
 
 .enjoy-it{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .enjoy-it-right{
-    width: 40%;
+    width: 48%;
     padding: 30px 0px;
 }
 
@@ -11,8 +13,7 @@
     width:100% ;
 }
 .enjoy-it-left{
-    padding: 40px 60px;
-    width: 60%;
+    width: 48%;
     
 }
 .enjoy-it-left h2{
@@ -32,4 +33,5 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    margin-top: 100px;
 }

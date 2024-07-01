@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 .hero-content{
     text-align: center;
@@ -24,9 +25,10 @@ color: #ffc451;}
     font-size: 22px;
 }
 .hero-bottom{
-    width: 1000px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 100px;
 }
 .hero-bottom-box{
  padding: 20px;
