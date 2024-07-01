@@ -151,8 +151,8 @@ height: auto;
 
 }
     .hero-bottom-box{
- padding: 0px !important;
- margin: 0px !important;
+ padding: 10px !important;
+ margin: 10px 0 !important;
 display: flex  !important;
 flex-direction: column  !important;
 }
