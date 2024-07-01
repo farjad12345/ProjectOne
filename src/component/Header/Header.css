@@ -68,12 +68,8 @@ margin: 10px;
     line-height: 2rem;
 }
 .parent-hamburger-icon , .parent-humberger-icon-close{
-    width: 32px;
-    height:32px;
+    width: 64px;
+    height:64px;
     color: white;
-    text-align: left;
-    width: 100%;
-    position: absolute;
-    left: 20px;
-    top: 30px;
+
 }
