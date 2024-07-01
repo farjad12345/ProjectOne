@@ -147,6 +147,12 @@
 }
     .hero{
 height: auto;
+            flex-wrap: nowrap;
+
 }
+    .hero-bottom-box{
+ padding: 0px;
+ margin: 0px;
+    }
 
 }
