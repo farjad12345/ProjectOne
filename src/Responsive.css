@@ -151,8 +151,8 @@ height: 200vh !important;
 
 }
     .hero-bottom-box{
-/*     margin: 20px 0 !important; */
-/*     padding: 20px !important; */
+    margin: 20px 0 !important;
+    padding: 20px !important;
 display: flex  !important;
 flex-direction: column  !important;
 }
