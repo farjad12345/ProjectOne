@@ -106,8 +106,7 @@
         font-size: 1.5rem;
     }
     .Hamburger-menu{
-        display: block !important;
-        width: 100%;
+        display: flex !important;
     }
 
       .column-one , .center-row {
@@ -156,4 +155,8 @@ height: 160vh !important;
 display: flex  !important;
 flex-direction: column  !important;
 }
+    .nav{
+            margin: 0 !important;
+    padding: 0 !important;
+    }
     }
