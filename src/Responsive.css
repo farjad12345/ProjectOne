@@ -141,5 +141,9 @@
         display: block !important;
         margin: 0 auto !important;
     }
+        .portofilo-menu ul{
+                flex-direction: column !important;
+        margin-bottom: 20px !important;
+}
 
 }
