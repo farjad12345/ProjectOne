@@ -53,13 +53,7 @@ function Header() {
               شروع
             </a>
             <div className="Hamburger-menu" >
-              <div className="parent-hamburger-icon"  onClick={()=>setIsShowModal(prevstate => !prevstate)}>
-                <i class="fas fa-bars" style={isShowModal? { display:'block'}:{ display:'none'}}></i>
-              </div>
-              <div className="parent-humberger-icon-close"  onClick={()=>setIsShowModal(prevstate => !prevstate)}>
-                <i class="fas fa-times" style={isShowModal?{ display:'none'}:  { display:'block'}}></i>
-              </div>
-              <ul className="ul-hamburger"  style={isShowModal?{ display:'none'}:  { display:'block'}}>
+            <ul className="ul-hamburger"  style={isShowModal?{ display:'none'}:  { display:'block'}}>
                 <li>
                   <Link to="home" smooth={true} duration={500}>
                     خانه
@@ -92,6 +86,12 @@ function Header() {
                   </Link>
                 </li>
               </ul>
+              <div className="parent-hamburger-icon"  onClick={()=>setIsShowModal(prevstate => !prevstate)}>
+               {isShowModal ? <i class="fas fa-bars"></i>:
+
+                <i class="fas fa-times" ></i>}
+              </div>
+
             </div>
           </nav>
       </header>
