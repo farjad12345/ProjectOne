@@ -73,7 +73,7 @@ margin: 10px;
     color: white;
     text-align: left;
     width: 100%;
-    position: fixed;
-    left: 50px;
+    position: absolute;
+    left: 0px;
     top: 30px;
 }
