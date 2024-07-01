@@ -79,7 +79,7 @@ function Footer() {
         </p>
         <div>
         <form action="" method="post">
-          <input type="email" name="email"/>
+          <input type="email" name="email" className='input-email'/>
           <input type="submit" value="دنبال کردن" />
         </form>
           

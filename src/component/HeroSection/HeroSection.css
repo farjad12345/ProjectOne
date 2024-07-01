@@ -26,14 +26,12 @@ color: #ffc451;}
 .hero-bottom{
     width: 1000px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .hero-bottom-box{
-    height: 150px;
-    width: 180px;
+ padding: 20px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;
-    transition: all 0.5;
 }
 .hero-bottom-box:hover{
    border: 1px solid #ffc451;
@@ -41,7 +39,7 @@ color: #ffc451;}
 .hero-bottom-box i {
 font-size: 32px;
     color: #ffc451;
-    margin: 25px 0;
+    /* margin: 25px ; */
 }
 .hero-bottom-box p {
 font-size: 20px;

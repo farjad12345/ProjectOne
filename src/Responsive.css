@@ -25,7 +25,6 @@
 .hero-bottom{
     flex-wrap: wrap;
     justify-content: center !important;
-    margin: 0 30px;
 }
 .hero-bottom-box{
     margin:5px  10px;
@@ -58,11 +57,9 @@
     .container {
         padding: 0 50px !important;
     }
-    .hero{
-        height: 3200px;
-    }
+
 .hero-content h1{
-    font-size: 33px;
+    font-size: 27px !important;
 }
 .hero-content p ,.services h2 ,.OurTeam h2, .contact-us h2 , .portfolio h2  ,
 .enjoy-it-left h2  {
@@ -96,20 +93,31 @@
         display: block !important;
         width: 100%;
     }
-    .form-and-address-parent {
-        flex-wrap: wrap ;
+
+      .column-one , .center-row , .column-four{
+      width: 100% !important;
     }
-    .fname ,.email {
-        width: 100% !important;
-      }
-      .column-two{
-        width: 48%;
-        justify-content: space-between !important;
+
+    .column-one {
+        padding: 20px 0;
     }
     .hero-bottom-box{
         width: 90% !important;
     }
     .img_list{
         grid-template-columns: repeat(1,auto) !important;
+    }
+    .form-and-address-parent {
+        flex-wrap: wrap;
+    }
+    .list-address-parent  .fourm-parent{
+        width: 100% !important;
+    }
+    .hero-content p {
+
+        font-size: 20px !important;
+    }
+    .fname , .email{
+        width: 100% !important;
     }
 }

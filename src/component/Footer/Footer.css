@@ -7,7 +7,7 @@ color: white;
 
 }
 .column-one{
-    width: 25%;
+    width: 30%;
 }
 .col-one-logo{
     display: flex;
@@ -40,7 +40,7 @@ color: white;
 
 }
 .column-two{
-    width: 25%;
+    width: 50%;
 }
 .colum-two-links li{
 list-style: none;
@@ -74,10 +74,16 @@ ul li i{
     line-height: 1;
     margin-left: 2px;
 }
+.column-four {
+width: 30%;
+}
 .column-four p{
     line-height: 1;
     font-size: 13px;
     margin-bottom: 1rem;
+}
+.input-email{
+    width: 72%;
 }
 .column-four form{
     margin-top: 30px;
@@ -114,5 +120,5 @@ form input[type="submit"] {
 }
 .center-row{
     display: flex;
-    flex-wrap: wrap;
+    width: 40%;
 }

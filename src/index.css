@@ -75,6 +75,4 @@
   src: url("fonts/ttf/IRANSansWeb(FaNum).ttf")
       format("truetype");
 }
-* {
-  font-family: IRANSansWeb ,Dana, Tahoma, Arial, sans-serif
-}
+
