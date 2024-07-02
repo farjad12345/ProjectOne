@@ -146,7 +146,7 @@
 }
     .hero{
         height: auto !important;
-          padding: 100px !important;
+          padding: 100px 0 !important;
 
 }
 .hero-bottom-box{
