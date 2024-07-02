@@ -3,7 +3,9 @@ import "./EnjoyIt.css";
 import EnjoyItEachBox from "../EnjoyItEachBox/EnjoyItEachBox";
 function EnjoyIt() {
   return (
+            <div className="container">
     <div className="enjoy-it ">
+
       <div className=" enjoy-it-right">
         <img src="./images/counts-img.jpg" alt="enjoy-it" />
       </div>
@@ -20,6 +22,7 @@ function EnjoyIt() {
           <EnjoyItEachBox />
         </div>
       </section>
+    </div>
     </div>
   );
 }

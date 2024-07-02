@@ -7,6 +7,8 @@ function ContactUs() {
   return (
     <>
         <Element name="contact-us">
+        <div className="container">
+
 
       <section className="contact-us ">
         <div>
@@ -60,6 +62,7 @@ function ContactUs() {
           <textarea placeholder=" پیام"  rows="4"   />
           <button type="submit" className="submit"  >  ارسال پیام</button>
         </form>
+      </div>
       </div>
 </Element>
     </>

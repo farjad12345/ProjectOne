@@ -8,7 +8,8 @@ function Header() {
   return (
            <Element name="home">
     <header className="header">
-          <nav className="nav container">
+      <div className="container">
+          <nav className="nav ">
             <div className="heder-icon">
               <a className="logo-text" href="#">
                 Kasuka
@@ -94,6 +95,7 @@ function Header() {
 
             </div>
           </nav>
+          </div>
       </header>
     </Element>
   );
