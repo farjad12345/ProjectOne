@@ -1,165 +1,37 @@
-.carosel{
-    background: linear-gradient(rgb(0,0,0.2),rgb(0,0,0,.2) ),url(../public/images/testimonials-bg.jpg) no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    padding: 100px 0;
 
-}
-.enjoy-it , .list-address-parent , .fourm-parent{
-    padding: 0 20px !important;
-}
-.enjoyitBoxsParent{
-    height: auto !important;
-}
-.OurTeam-each-person-parent{
-    width: 22%;
-}
+
+
+.container{
+    max-width: 1300px;
+    display: block;
+    margin: 0 auto;
+  }
+
+
 @media (max-width: 1200px) {
 .container{
-    padding: 0 70px;
+    padding: 0 50px !important;
 } 
-.CTAsection {
-    height: auto !important;
-}   
-}
-
-@media (max-width: 768px) {
-
-.hero-bottom{
-    flex-wrap: wrap;
-    justify-content: center !important;
-}
-.hero-bottom-box{
-    margin:10px  35px!important;
   
 }
-.about-us-half{
-    width: 100% !important;
-}
-.about-us , .enjoy-it , .features , .services-box{
-    flex-direction: column !important;
 
-}
-.Services-Box-parent{
-    justify-content: center;
-}
 
-.enjoy-it-left , .enjoy-it-right , .about-us-half ,.features-half{
-    width: 100% !important;
-}
- .services-box {
-    width: 48% !important;
- }
 
-.OurTeam-Box-parent{
-    flex-wrap: wrap;
-}
-.OurTeam-each-person-parent{
-    width: 49% !important;
-}
-.form-and-address-parent {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.img_list{
-    grid-template-columns: repeat(2,auto) !important;
-}
-.fname , .email{
-    width: 100% !important;
-}
-}
 @media (max-width: 430px) {
     .container {
-        padding:  20px !important;
+        padding:  0 20px !important;
     }
+}
 
-.hero-content h1{
-    font-size: 27px !important;
-}
-.hero-content p ,.services h2 ,.OurTeam h2, .contact-us h2 , .portfolio h2  ,
-.enjoy-it-left h2  {
-    font-size: 28px !important;
-    line-height: 1.5 !important;
-}
-.enjoyit-box-parent{
-    width: 100% !important;
 
-}
-.OurTeam-each-person-parent{
-    width: 100% !important;
-}
-    /* .form-and-address-parent {
-        display: block;
-    } */
-    .footer-top {
-    flex-direction: column;
-    }
-    .enjoy-it-left {
-            padding: 40px 5px !important;
-            text-align:justify;
-    }
-    .start , .ul{
-        display: none !important;
-    }
-    .logo-text{
-        font-size: 1.5rem;
-    }
-    .Hamburger-menu{
-        display: flex !important;
-    }
 
-      .column-one , .center-row {
-      width: 100% !important;
-    }
 
-    .column-one {
-        padding: 20px 0;
-    }
-    .hero-bottom-box{
-        width: 90% !important;
-    }
-    .img_list{
-        grid-template-columns: repeat(1,auto) !important;
-    }
-    .form-and-address-parent {
-        flex-wrap: wrap;
-    }
-    .list-address-parent  .fourm-parent{
-        width: 100% !important;
-    }
-    .hero-content p {
 
-        font-size: 20px !important;
-    }
-    .services-box {
-        width: 100% !important;
-    }
-    .column-four{
-        width: 100% !important;
-        display: block !important;
-        margin: 0 auto !important;
-    }
-        .portofilo-menu ul{
-                flex-direction: column !important;
-        margin-bottom: 20px !important;
-}
-    .hero{
-        height: auto !important;
-          padding: 150px 0 !important;
 
-}
-.hero-bottom-box{
-margin: 20px 0 !important;
-padding: 20px !important;
-display: flex  !important;
-flex-direction: column  !important;
-}
-.nav{
-margin: 0 !important;
-padding: 0 !important;
-}
-}
+
+
+
+/* }
 .hero-content{
 margin-top:20px !important;
-}
+} */

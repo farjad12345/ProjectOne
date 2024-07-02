@@ -51,6 +51,8 @@ iframe {
 
 .list-address-parent{
     width: 40%;
+    padding: 0 20px ;
+
     
 }
 .list-address{
@@ -103,6 +105,8 @@ margin-top: 10px;
     color: #212529; 
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     box-sizing: border-box;
+    padding: 0 20px ;
+
   }
 
   .fname ,.email  , .subject , textarea{
@@ -110,7 +114,7 @@ margin-top: 10px;
     width:49% ;
     height: 44px; 
     border: none;
-    border: 1px solid #ced4da !important;
+    border: 1px solid #ced4da ;
     box-shadow: none;
     font-size: 14px;
     border-radius: 4px;
@@ -141,3 +145,20 @@ margin-top: 10px;
 .fname ,.email {
   width: 49%;
 }
+@media (max-width: 768px) { 
+
+  .form-and-address-parent {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .fname , .email{
+    width: 100% ;
+}
+}
+    @media (max-width: 430px) {
+.contact-us h2   {
+    font-size: 28px ;
+    line-height: 1.5 ;
+}
+    }
+

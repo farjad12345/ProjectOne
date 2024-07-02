@@ -1,123 +1,143 @@
-
-.footer-top{
-    display: flex;
-    background-color: #151515;
-    padding: 50px 70px;
-color: white;
-
+.footer-top {
+  display: flex;
+  background-color: #151515;
+  padding: 50px 70px;
+  color: white;
 }
-.column-one{
-    width: 30%;
+.column-one {
+  width: 30%;
 }
-.col-one-logo{
-    display: flex;
-    align-items: center;
+.col-one-logo {
+  display: flex;
+  align-items: center;
 }
-.logo-footer-parent{
-    width: 100px;
-    height: 100px;
-    justify-content: flex-start;
+.logo-footer-parent {
+  width: 100px;
+  height: 100px;
+  justify-content: flex-start;
 }
-.logo-text-footer{
-    font-size: 28px;
-    margin: 0 0 20px 0;
-    padding: 2px 0 2px 0;
-    line-height: 1;
-    font-weight: 700;
-    text-transform: uppercase;
+.logo-text-footer {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-.column-one .text{
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 0;
-    color: #fff;
-    text-align: justify;
+.column-one .text {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: #fff;
+  text-align: justify;
 }
-.logo-footer-parent img{
-    width: 100%;
-    height: 100%;
-
+.logo-footer-parent img {
+  width: 100%;
+  height: 100%;
 }
-.column-two{
-    width: 50%;
+.column-two {
+  width: 50%;
 }
-.colum-two-links li{
-list-style: none;
+.colum-two-links li {
+  list-style: none;
 }
-.footer-top h4{
-    margin-bottom: 20px ;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    padding-bottom: 12px;
+.footer-top h4 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 12px;
 }
-.column-two a{
-    display:inline-block;
-text-decoration: none;
-color: white;
-font-size: 14px;
-margin-bottom: 20px;
+.column-two a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
-.column-two li{
-    color: #ffc451;
-
+.column-two li {
+  color: #ffc451;
 }
 ul li {
-    display: flex;
-    line-height: 1;
+  display: flex;
+  line-height: 1;
 }
-ul li i{
-    padding-right: 2px;
-    color: #ffc451;
-    font-size: 18px;
-    line-height: 1;
-    margin-left: 2px;
+ul li i {
+  padding-right: 2px;
+  color: #ffc451;
+  font-size: 18px;
+  line-height: 1;
+  margin-left: 2px;
 }
 .column-four {
-width: 30%;
+  width: 30%;
 }
-.column-four p{
-    line-height: 1;
-    font-size: 13px;
-    margin-bottom: 1rem;
+.column-four p {
+  line-height: 1;
+  font-size: 13px;
+  margin-bottom: 1rem;
 }
-.input-email{
-    width: 72%;
+.input-email {
+  width: 72%;
 }
-.column-four form{
-    margin-top: 30px;
-    background: #fff;
-    padding: 6px 10px;
-    position: relative;
-    border-radius: 4px;
+.column-four form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px;
 }
 
 form input[type="submit"] {
-    position: absolute;
-    top: 0;
-    left: -2px;
-    bottom: 0;
-    border: 0;
-    background: none;
-    font-size: 16px;
-    padding: 0 20px;
-    background: #ffc451;
-    color: #151515;
-    transition: 0.3s;
-    border-radius: 4px 0 0 4px;
+  position: absolute;
+  top: 0;
+  left: -2px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #ffc451;
+  color: #151515;
+  transition: 0.3s;
+  border-radius: 4px 0 0 4px;
 }
-.footer-bottom{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 5rem;
-    background: black;
-    color: white;
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 5rem;
+  background: black;
+  color: white;
 }
-.my-name{
-    color: #ffc451;
+.my-name {
+  color: #ffc451;
 }
-.center-row{
-    display: flex;
-    width: 40%;
+.center-row {
+  display: flex;
+  width: 40%;
+}
+@media (max-width: 430px) {
+  .footer-top {
+    flex-direction: column;
+  }
+  .column-one,
+  .center-row {
+    width: 100%;
+  }
+
+  .column-one {
+    padding: 20px 0;
+  }
+  .form-and-address-parent {
+    flex-wrap: wrap;
+  }
+  .list-address-parent  .fourm-parent{
+    width: 100% ;
+}
+.column-four{
+  width: 100% ;
+  display: block ;
+  margin: 0 auto ;
+}
 }

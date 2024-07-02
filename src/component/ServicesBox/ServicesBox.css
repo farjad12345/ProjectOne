@@ -36,3 +36,25 @@
     line-height: 24px;
     font-size: 14px;
 }
+@media (max-width: 768px) { .services-box{
+    flex-direction: column ;
+
+}
+.Services-Box-parent{
+    justify-content: center;
+}
+.services-box {
+    width: 48% ;
+ }
+}
+@media (max-width: 430px) {
+
+    .services h2 {
+        font-size: 28px ;
+        line-height: 1.5 ;
+    }
+        .services-box {
+            width: 100% ;
+        }
+    
+}

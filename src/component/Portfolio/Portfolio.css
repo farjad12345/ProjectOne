@@ -1,54 +1,63 @@
-.portfolio{
-    width: 100%;
-    padding: 50px 0;
+.portfolio {
+  width: 100%;
+  padding: 50px 0;
 }
-.portfolio-top{
-    margin-bottom: 50px;
+.portfolio-top {
+  margin-bottom: 50px;
 }
-.portfolio .portfolio-content{
-    font-size: 14px;
-    font-weight: 500;
-    padding: 0;
-    line-height: 1px;
-    margin: 0 0 5px 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #aaaaaa;
+.portfolio .portfolio-content {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
 }
-.portfolio .portfolio-content::after{
-    content: "";
-    width: 120px;
-    height: 1px;
-    display: inline-block;
-    background: #ffde9e;
-    margin: 4px 10px;
-    
+.portfolio .portfolio-content::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #ffde9e;
+  margin: 4px 10px;
 }
-.portfolio h2{
-    margin: 0;
-    font-size: 36px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #151515;
-    text-align: justify;
+.portfolio h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #151515;
+  text-align: justify;
 }
-.portofilo-menu ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.portofilo-menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.portofilo-menu ul a{
-    list-style: none;
-    text-decoration: none;
-    color: #151515;
+.portofilo-menu ul a {
+  list-style: none;
+  text-decoration: none;
+  color: #151515;
 }
-.portofilo-menu ul li{
+.portofilo-menu ul li {
   font-size: 18px;
-  margin-left: 5px ;
+  margin-left: 5px;
   padding: 8px 15px 10px 15px;
   cursor: pointer;
   border-radius: 3px;
 }
-.portofilo-menu ul li:hover{
-background: #ffc451;
+.portofilo-menu ul li:hover {
+  background: #ffc451;
+}
+@media (max-width: 430px) {
+  .portfolio h2 {
+    font-size: 28px;
+    line-height: 1.5;
+  }
+  .portofilo-menu ul{
+    flex-direction: column ;
+margin-bottom: 20px ;
+}
 }

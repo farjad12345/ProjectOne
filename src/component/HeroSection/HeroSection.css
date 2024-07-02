@@ -3,11 +3,13 @@
     background:linear-gradient(rgba(0,0,0,.5),rgb(0,0,0,.5)),  url(../../../public/images/hero-bg.jpg) no-repeat ;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 150px 0 ;
+
 }
 .hero-content{
     text-align: center;
@@ -20,10 +22,13 @@
     font-size: 40px;
 }
 .hero-content h1 p{
-color: #ffc451;}
+color: #ffc451;
+}
+
 .hero-content p{
     margin-top: 1rem;
     font-size: 22px;
+    padding: 30px;
 }
 .hero-bottom{
     display: flex;
@@ -49,4 +54,49 @@ font-size: 32px;
 .hero-bottom-box p {
 font-size: 20px;
 color: white;
+}
+
+@media (max-width: 768px) {
+
+    .hero-bottom{
+        flex-wrap: wrap;
+        justify-content: center ;
+    }
+    .hero-bottom-box{
+        margin:10px  35px;
+      
+    }
+}
+@media (max-width: 430px) {
+
+    .hero-content h1{
+        font-size: 27px ;
+    }
+    .hero-content p
+  {
+    font-size: 20px ;
+    line-height: 1.5 ;
+    }
+    .hero-bottom-box{
+        margin: 20px 0 ;
+        padding: 20px ;
+        display: flex  ;
+        flex-direction: column  ;
+        }
+        .nav{
+        margin: 0 ;
+        padding: 0 ;
+        }
+        .hero-content{
+        margin-top:20px ;
+        }
+        .hero{
+            height: auto ;
+              padding: 150px 0 ;
+    
+    }
+    .hero-bottom-box{
+        width: 90% ;
+    }
+
 }

@@ -6,14 +6,15 @@
   margin: 0;
   padding: 0;
 }
+.carosel{
+  background: linear-gradient(rgb(0,0,0.2),rgb(0,0,0,.2) ),url(../public/images/testimonials-bg.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  padding: 100px 0;
 
-
-
-.container{
-  max-width: 1300px;
-  display: block;
-  margin: 0 auto;
 }
+
+
 @import "react-alice-carousel/lib/alice-carousel.css";
 
 @font-face {
@@ -89,5 +90,5 @@
 }
 
 body {
-  font-family: Vazirmatn !important;
+  font-family: Vazirmatn ;
 }

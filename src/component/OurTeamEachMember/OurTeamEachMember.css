@@ -2,7 +2,6 @@
 .OurTeam-each-person-parent{
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 width: 280px;
-/* height: 300px; */
 border-radius: 6px;
 margin: 20px 0;
 }
@@ -27,4 +26,21 @@ margin: 20px 0;
     font-size: 13px;
     font-weight: 400;
     color: #aaaaaa;
+}
+@media (max-width: 768px) { 
+    .OurTeam-Box-parent{
+        flex-wrap: wrap;
+    }
+    .OurTeam-each-person-parent{
+        width: 49% ;
+    }
+}
+@media (max-width: 430px) {
+    .OurTeam h2{
+        font-size: 28px ;
+        line-height: 1.5 ;
+    }
+    .OurTeam-each-person-parent{
+        width: 100% ;
+    }
 }

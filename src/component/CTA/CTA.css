@@ -2,7 +2,7 @@
     background:linear-gradient(rgb(2,2,2.5),rgb(0,0,0,.5)), url("../../../public/images/cta-bg.jpg") no-repeat center center;
     background-size:cover  ;
     background-attachment: fixed;
-    width: 100%;
+    width: auto;
     height: 250px;
     color: white;
     text-align: center;
