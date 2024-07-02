@@ -3,6 +3,8 @@ import "./HeroSection.css"
 function HeroSection() {
   return (
     <div className="hero">
+              <div className="container">
+
     <section className="hero-content">
       <h1>
         راه حل های قدرتمند دیجیتال با
@@ -31,6 +33,7 @@ function HeroSection() {
         <i className="fas fa-yin-yang"></i>
         <p>متن نمایشی</p>
       </div>
+    </div> 
     </div> 
   </div>  )
 }
