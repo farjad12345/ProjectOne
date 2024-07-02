@@ -4,6 +4,8 @@ function Footer() {
   return (
     <footer>
     <div className="footer-top">
+              <div className="container">
+
       <div className="column-one">
         <div className="col-one-logo">
           <div className="logo-footer-parent">
@@ -88,6 +90,7 @@ function Footer() {
     </div>
     <div className="footer-bottom">
       <p>طراحی شده توسط  <span className="my-name">FARJAD</span> کلیه  حقوق محفوظ است</p> 
+    </div>
     </div>
   </footer>
   )
