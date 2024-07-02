@@ -4,9 +4,9 @@ function Footer() {
   return (
     <footer>
     <div className="footer-top">
-              <div className="container">
 
       <div className="column-one">
+              <div className="container">
         <div className="col-one-logo">
           <div className="logo-footer-parent">
             <img src="./images/logo.png" alt="" />
