@@ -146,6 +146,8 @@
 }
     .hero{
         height: auto !important;
+          padding: 100px !important;
+
 }
 .hero-bottom-box{
 margin: 20px 0 !important;
