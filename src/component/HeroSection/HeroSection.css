@@ -8,12 +8,13 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: column;
 }
 .hero-content{
     text-align: center;
     color: white;
     margin-top: 0px;
+      width: 100%;
+
 }
 .hero-content h1{
     font-size: 40px;
@@ -26,9 +27,10 @@ color: #ffc451;}
 }
 .hero-bottom{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 100px;
+flex-wrap: wrap;
+justify-content: space-evenly;
+  width: 100%;
+
 }
 .hero-bottom-box{
  padding: 20px;
